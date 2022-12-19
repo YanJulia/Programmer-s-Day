@@ -8,13 +8,14 @@ public class Programmers_day {
         int year = scanner.nextInt();
 
         if (isLeapYear(year)) {
-            System.out.println("В "+year+"году День программиста празднуют "+12.09."+year+"." );
-        } else {System.out.println("В "+year+"году День программиста празднуют "+13.09."+year+"." );
+            System.out.println("In "+year+" Programmer's day is 12.09."+year+"." );
+        } else {System.out.println("In "+year+" Programmer's day is 13.09."+year+"."  );
         }
     }
 
     public static boolean isLeapYear(int year) {
-	   isLeapYear=year%400==0
+	   boolean isLeapYear;
+	   isLeapYear=year%400==0;
 	   if (isLeapYear) {
 	       return;
        	    } else {isLeapYear=(year%100<>0);
